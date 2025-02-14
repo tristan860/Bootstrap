@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="et">
-asdfasd
 <head>
     <meta name="Seletus" content="Bootstrap">
     <meta name="võtmesõnad" content="HTML,CSS,HTML5,CSS3">
@@ -8,15 +7,14 @@ asdfasd
     <meta charset="UTF-8">
     <link rel="stylesheet" href="harjutus04.css">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Harjutus04</title>
 </head>
 
 <body>
     <div class="container">
-        <div class="jumbotron">
+        <div class="jumbotron mt-3">
             <div class="text-white text-center">
                 <div class="container-fluid py-5">
                   <h1 class="display-5 fw-bold">Jumbotron</h1>
@@ -24,13 +22,15 @@ asdfasd
                 </div>
               </div>
             </div>
-        <div class="card-deck">
-            <div class="card">
-                <img src="images/mägi4.avif" height="250" alt="...">
+        <div class="card-group">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+            <div class="card h-100 mt-3">
+                <img src="images/mägi4.avif" class="card-img-top"  height="250" alt="...">
                 <div class="card-body">
                     <h5>Magna dolore ut</h5>
-                    <h6><span class="badge badge-primary">Primary</span>
-                        <span class="badge badge-secondary">Secondary</span>
+                    <h6><span class="badge text-bg-primary">Primary</span>
+                        <span class="badge text-bg-secondary">Secondary</span>
                     </h6>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum deleniti
                         blanditiis error labore! Veniam, dolorem. Fugit nihil nemo rerum ea, quas quidem nulla
@@ -40,12 +40,16 @@ asdfasd
                     <a href="https://facebook.com" target="_blank" class="fab fa-facebook fa-2x" style="color: black;"></a>
                 </div>
             </div>
-            <div class="card">
-                <img src="images/mägi3.webp" height="250" alt="...">
+        </div>
+
+                <div class="col">
+            <div class="card h-100 mt-3">
+                <img src="images/mägi3.webp" class="card-img-top" height="250" alt="...">
                 <div class="card-body">
                     <h5>Sit ame Minim</h5>
-                    <h6><span class="badge badge-danger">Danger</span>
-                        <span class="badge badge-secondary">Secondary</span>
+                    <h6>
+                        <span class="badge text-bg-danger">Danger</span>
+                        <span class="badge text-bg-secondary">Secondary</span>
                     </h6>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus nesciunt
                         voluptates maxime cum aliquid, magnam recusandae illo nihil. Obcaecati a tempora nesciunt neque!
@@ -55,14 +59,16 @@ asdfasd
                     <a href="https://facebook.com/" target="_blank" class="fab fa-facebook fa-2x" style="color: black;"></a>
                 </div>
             </div>
-            <div class="card">
-                <iframe height="250" src="https://www.youtube.com/embed/hnCmSXCZEpU"
+                </div>
+                <div class="col">
+            <div class="card h-100 mt-3">
+                <iframe height="250" src="https://www.youtube.com/embed/hnCmSXCZEpU" class="card-img-top"
                     title="Bootstrap 4 in 2018 - Free Crash Course of 4.0.0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <div class="card-body">
                     <h5>Nostrud aliquip ex</h5>
-                    <h6><span class="badge badge-danger">Danger</span></h6>
+                    <h6><span class="badge text-bg-danger">Danger</span></h6>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum obcaecati, architecto dignissimos ratione voluptatibus nihil error maiores iusto. Rerum pariatur quibusdam culpa quaerat officiis odit tempore vel neque voluptatibus vitae.</p>
                     <a href="https://brand.linkedin.com/" class="fab fa-linkedin fa-2x" style="color: black;"></a>
                     <a href="https://www.instagram.com/" class="fab fa-instagram fa-2x" style="color: black;"></a>
@@ -71,6 +77,8 @@ asdfasd
             </div>
         </div>
     </div>
+    </div>
+</div>
 </body>
 
 </html>
